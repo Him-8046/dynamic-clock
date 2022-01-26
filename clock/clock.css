@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back-video{
+    position: absolute;
+  
+    width: 100%;
+    height: auto;
+    
+
+}
+
+
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(ana.jpg) ;
+    background-size: 100%;
+    top: 40px;
+}
+
+#hour ,#min ,#sec{
+    position: absolute;
+    background: rgb(31, 31, 9);
+    border-radius: 12px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    height: 17%;
+    top: 32%;
+    left: 50%;
+    opacity: .8;
+   
+   
+   
+
+}
+#min{
+    width: 1%;
+    height: 25%;
+    top: 26%;
+    left: 50%;
+    opacity: .8;
+    
+   
+   
+
+}
+#sec{
+    width: 1%;
+    height: 30%;
+    top: 21%;
+    left: 50%;
+    opacity: .8;
+    
+    
+
+} 
